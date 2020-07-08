@@ -3,6 +3,7 @@ on:
   push:
     branches: 
       - 'deploy-demo'
+      - 'test-mary'
   schedule: 
     # Runs every day at 4am
     - cron: '0 4 * * *'
